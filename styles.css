@@ -13,9 +13,11 @@ body {
     text-align: center;
     background-color: #ffffff;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 40px; /* Increased padding for more space */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    width: 90%;
+    max-width: 600px; /* Increased max-width for more content space */
 }
 
 h1 {
@@ -28,7 +30,7 @@ h1 {
 
 .photo-container img {
     width: 100%;
-    max-width: 250px; /* Adjusted max-width to fit better on screen */
+    max-width: 200px; /* Decreased max-width for smaller photo */
     height: auto;
     object-fit: cover;
     border: 5px solid #dc3545;
